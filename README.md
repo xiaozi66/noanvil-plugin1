@@ -40,7 +40,7 @@ sudo apt install maven  # Ubuntu/Debian
 # 构建插件
 mvn clean package
 
-# 构建好的插件在 target/NoAnvilRestrictions-NoMagic-1.0.1.jar
+# 构建好的插件在 target/NoAnvilRestrictions1.0.1.jar
 ```
 
 ## 配置说明
@@ -63,7 +63,6 @@ anvil:
 2. **附魔平衡**：这个插件会完全破坏游戏平衡，建议在创造模式或特殊服务器使用
 3. **性能影响**：由于移除了所有检查，性能影响很小
 4. **兼容性**：与大多数其他插件兼容，但可能与修改铁砧机制的插件冲突
-5. **无咒语功能**：此版本移除了OP魔法咒语功能，仅保留铁砧限制移除
 
 ## 示例用法
 1. 将"锋利V"和"亡灵杀手V"同时附魔到一把剑上
