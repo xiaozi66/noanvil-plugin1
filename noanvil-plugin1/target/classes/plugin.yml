@@ -1,0 +1,18 @@
+name: NoAnvilRestrictions
+version: 1.0.0
+main: com.example.noanvilrestrictions.NoAnvilRestrictions
+api-version: 1.20
+author: 仙女黛黛很呆
+description: 移除铁砧的所有附魔限制，允许任意附魔组合
+folia-supported: true
+
+commands:
+  noanvilreload:
+    description: 重载插件配置
+    usage: /noanvilreload
+    permission: noanvilrestrictions.reload
+
+permissions:
+  noanvilrestrictions.reload:
+    description: 允许重载插件
+    default: op

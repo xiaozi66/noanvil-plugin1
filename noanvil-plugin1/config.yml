@@ -1,0 +1,28 @@
+# NoAnvilRestrictions 配置文件
+# 作者：仙女黛黛很呆
+
+# 是否启用插件
+enabled: true
+
+# 是否在控制台显示调试信息
+debug: false
+
+# 铁砧修复成本设置
+anvil:
+  # 修复成本（经验等级）
+  repair-cost: 1
+  # 最大修复成本
+  max-repair-cost: 1
+  # 是否移除附魔冲突检查
+  remove-enchant-conflicts: true
+  # 是否移除附魔等级限制
+  remove-level-limits: true
+  # 是否允许不兼容的附魔组合
+  allow-incompatible-enchants: true
+
+# 消息配置
+messages:
+  plugin-enabled: "&aNoAnvilRestrictions 插件已启用！"
+  plugin-disabled: "&cNoAnvilRestrictions 插件已禁用"
+  reload-success: "&a配置重载成功！"
+  reload-failed: "&c配置重载失败，请检查控制台错误"
