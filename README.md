@@ -1,7 +1,7 @@
-# NoAnvilRestrictions-NoMagic - Minecraft Folia 插件
+# NoAnvilRestrictions - Minecraft Folia 插件
 
 ## 功能说明
-这个插件完全移除了铁砧的所有附魔限制（无咒语功能），让你可以：
+这个插件完全移除了铁砧的所有附魔限制，让你可以：
 - 将任意附魔组合到任何物品上
 - 无视附魔冲突（比如锋利和亡灵杀手可以共存）
 - 无视附魔等级限制
@@ -14,7 +14,7 @@
 - **其他服务端**: Paper, Spigot, Purpur 等
 
 ## 安装方法
-1. 将 `NoAnvilRestrictions-NoMagic.jar` 放入服务器的 `plugins` 文件夹
+1. 将 `NoAnvilRestrictions.jar` 放入服务器的 `plugins` 文件夹
 2. 重启服务器或使用 `/reload confirm` (Folia) 或 `/reload` (其他)
 3. 插件会自动启用
 
